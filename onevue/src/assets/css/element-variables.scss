@@ -1,0 +1,85 @@
+/* 改变主题色变量 */
+// $--color-primary: #32c27c;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+$nodata-bg: '../img/nodata.png';
+
+.text-primary{
+  color: $--color-primary;
+}
+.text-muted{
+  color: #999999;
+}
+.text-success{
+  color: #7CDEA7;
+}
+.text-warning{
+  color: #FFAA5F;
+}
+.text-general{
+  color: #0E9CF6;
+}
+.text-danger{
+  color: #F56C6C;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-lg{
+  font-size: 120%;
+}
+// form-build
+.form-view{
+  top: 90px !important;
+}
+.widget-side-list{
+  top: 163px !important;
+  margin-left: 290px !important;
+}
+.form-build-container .view-container{
+  width: 900px !important;
+}
+.el-input, .el-textarea{
+  font-family: inherit;
+}
+
+.nodata {
+  text-align: center;
+  color: #666;
+  margin-top: 100px;
+  padding-top: 140px;
+  background: url($nodata-bg) no-repeat top center;
+}
+
+.sys-width{
+  width: 1300px;
+  margin: 0 auto;
+}
+.sys-wrap{
+  width: 100%;
+  min-width: 1000px;
+  // height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+// 隐藏cascader的单选框
+.el-cascader-node>.el-radio {
+  visibility: hidden;
+  width: 1px;
+  overflow: hidden;
+}
+.el-breadcrumb{
+  padding: 10px 0 20px;
+}

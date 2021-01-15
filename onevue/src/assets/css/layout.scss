@@ -1,0 +1,22 @@
+$color-primary: #32c27c;
+
+.main-title-secondly{
+  margin-bottom: 20px;
+  .title-text{
+    display: block;
+    line-height: 1;
+    padding-left: 6px;
+    border-left: 2px solid $color-primary;
+  }
+}
+
+.sys-width{
+  .el-breadcrumb{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.el-breadcrumb__inner.is-link, .el-breadcrumb__inner a{
+  font-weight: normal;
+}
